@@ -11,6 +11,6 @@ public class FaturaTest {
 		
 		Assertions.assertEquals("04/06/2020", fat.getDataFatura());
 		Assertions.assertEquals("Bruno", fat.getNomeClienteFatura());
-		Assertions.assertEquals(200, fat.getValorTotalFatura());
+		Assertions.assertEquals(300, fat.getValorTotalFatura());
 	}
 }
