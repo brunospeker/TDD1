@@ -26,9 +26,9 @@ public class ProcessadorTest {
 		
 		double vpt = p.valorPagoTotal();
 		p.checkProc(vpt, fatura1.getValorTotalFatura());
-		Assertions.assertEquals(1600, fatura1.getValorTotalFatura());
+		Assertions.assertEquals(vpt, fatura1.getValorTotalFatura());
 		
-		p.imprimir();
+		p.imprimir(); //"impressão" da fatura
 		
 	}
 }
